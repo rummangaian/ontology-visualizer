@@ -1,0 +1,60 @@
+import "./FilterButton.css";
+
+const FilterButton = ({selectedFilters, setSelectedFilters , degree , applyNodeDegree}) => {
+  const filterOptions = [
+    "DISJOINT",
+    "DATATYPE",
+    "EXTERNAL",
+    "OBJECT",
+    "SUBCLASS",
+    "SET_OPERATOR",
+    "COMPACT_NOTATION",
+    "EMPTY_LITERAL",
+    "COLLAPSING",
+    "STATISTICS",
+    "NODE_DEGREE",
+  ];
+
+
+  const handleCheckboxChange = (option) => {
+    setSelectedFilters((prev) => {
+      if (prev.includes(option)) {
+        // Remove the option if it is already selected
+        return prev.filter((item) => item !== option);
+      } else {
+        // Add the option if it is not already selected
+        return [...prev, option];
+      }
+    });
+  };
+
+  return (
+    <div className="filter-cont">
+      <div className="filter-btn">Filter List</div>
+      <div className="filter-options">
+        {filterOptions.map((option) => (
+          <div key={option} className="filter-option">
+            <label>
+              <input
+                type="checkbox"
+                value={option}
+                checked={selectedFilters?.includes(option)}
+                onChange={() => handleCheckboxChange(option)}
+              />
+              {option}
+            </label>
+          </div>
+        ))}
+
+         <input
+          type="range"
+          max={degree.maxDegree}
+          onChange={(e) => applyNodeDegree(parseInt(e.target.value, 10))}
+          value={degree.currentDegree}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default FilterButton;

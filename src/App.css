@@ -1,0 +1,42 @@
+.onto-container{
+  width: 100vw;
+  height: 100vh;
+  position : relative
+}
+/* .btns{
+  height: 100px;
+} */
+#graph{
+  width: 100%;
+  max-height: calc(100% - 100px);
+  overflow:hidden;
+  background-color: whitesmoke;
+}
+.onto-title{
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  color: rgb(4, 182, 236);
+  font-weight: bold;
+  font-size: large;
+}
+.onto-setting-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: large;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  z-index: 1;
+  height: 20px;
+}
+.onto-setting-right-part{
+  margin-right: 40px;
+  
+}

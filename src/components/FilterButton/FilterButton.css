@@ -1,0 +1,21 @@
+.filter-btn{
+    cursor: pointer;
+}
+
+.filter-cont{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.filter-menu{
+    position: absolute;
+    bottom: 40px;
+    background: #000;
+    z-index: 0;
+}
+.filter-options{
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+}
