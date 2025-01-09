@@ -10,7 +10,6 @@ const FilterButton = ({selectedFilters, setSelectedFilters , degree , applyNodeD
     "SET_OPERATOR",
     "COMPACT_NOTATION",
     "EMPTY_LITERAL",
-    "COLLAPSING",
     "STATISTICS",
     "NODE_DEGREE",
   ];
@@ -19,10 +18,8 @@ const FilterButton = ({selectedFilters, setSelectedFilters , degree , applyNodeD
   const handleCheckboxChange = (option) => {
     setSelectedFilters((prev) => {
       if (prev.includes(option)) {
-        // Remove the option if it is already selected
         return prev.filter((item) => item !== option);
       } else {
-        // Add the option if it is not already selected
         return [...prev, option];
       }
     });

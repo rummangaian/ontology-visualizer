@@ -63,7 +63,7 @@ export default function App() {
     if (viewer) {
       // Define all the possible filters that the viewer can handle
       const allFilters = [
-        "DISJOINT" , "DATATYPE" , "EXTERNAL" , "OBJECT" , "SUBCLASS" , "SET_OPERATOR" , "COMPACT_NOTATION" , "EMPTY_LITERAL" , "NODE_DEGREE" , "COLLAPSING" , "STATISTICS"
+        "DISJOINT" , "DATATYPE" , "EXTERNAL" , "OBJECT" , "SUBCLASS" , "SET_OPERATOR" , "COMPACT_NOTATION" , "EMPTY_LITERAL" , "NODE_DEGREE"  , "STATISTICS"
       ];
   
       // Iterate over all filters and dynamically set their values
