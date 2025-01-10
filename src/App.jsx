@@ -13,7 +13,7 @@ export default function App() {
   const viewerRef = useRef(null);
   const [degree, setDegree] = useState({ maxDegree: 0, currentDegree: 0 });
   const [classDistance, setClassDistance] = useState(10);
-  const [labelLength , setLabelLength] = useState(30)
+  const [labelLength, setLabelLength] = useState(30);
 
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [play, setPlay] = useState(true);
@@ -106,23 +106,29 @@ export default function App() {
     setClassDistance(val); // Update state
     const viewer = viewerRef.current;
     if (viewer) {
-      options.setClassDistance(val); 
-      viewer.updateStyle(); 
+      options.setClassDistance(val);
+      viewer.updateStyle();
     }
   };
 
   const applyLabelLength = (val) => {
-    setLabelLength(val)
+    setLabelLength(val);
     const viewer = viewerRef.current;
     if (viewer) {
       options.setDynamicWidth(true);
       options.setMaxLabelWidth(parseInt(val));
       viewer.animateDynamicLabelWidth();
     }
-  }
+  };
 
   useEffect(() => {
-    selectedFilters && applyFilter(selectedFilters);
+    if (selectedFilters) {
+      applyFilter(selectedFilters);
+
+      const viewer = viewerRef.current;
+      viewer.resume();
+      setPlay(true);
+    }
   }, [selectedFilters]);
 
   return (
