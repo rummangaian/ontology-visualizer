@@ -1,0 +1,5354 @@
+{
+	"_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+	"header": {
+		"baseIris": [
+			"http://example.org/ontology",
+			"http://www.w3.org/2000/01/rdf-schema",
+			"http://www.w3.org/2001/XMLSchema"
+		],
+		"prefixList": {
+			"owl": "http://www.w3.org/2002/07/owl#",
+			"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+			"ex": "http://example.org/ontology#",
+			"xsd": "http://www.w3.org/2001/XMLSchema#",
+			"xml": "http://www.w3.org/XML/1998/namespace",
+			"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+		},
+		"iri": "No IRI set"
+	},
+	"namespace": [],
+	"class": [
+		{
+			"id": "0",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "1",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "2",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "3",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "4",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "5",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "9",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "10",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "14",
+			"type": "owl:Class"
+		},
+		{
+			"id": "26",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "27",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "28",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "29",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "30",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "31",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "32",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "33",
+			"type": "owl:Class"
+		},
+		{
+			"id": "34",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "35",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "36",
+			"type": "owl:Class"
+		},
+		{
+			"id": "37",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "38",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "49",
+			"type": "owl:Class"
+		},
+		{
+			"id": "53",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "59",
+			"type": "owl:Class"
+		},
+		{
+			"id": "51",
+			"type": "owl:Class"
+		},
+		{
+			"id": "74",
+			"type": "owl:Class"
+		},
+		{
+			"id": "7",
+			"type": "owl:Class"
+		},
+		{
+			"id": "79",
+			"type": "owl:Class"
+		},
+		{
+			"id": "84",
+			"type": "owl:Class"
+		},
+		{
+			"id": "86",
+			"type": "owl:Class"
+		},
+		{
+			"id": "88",
+			"type": "owl:Class"
+		},
+		{
+			"id": "17",
+			"type": "owl:Class"
+		},
+		{
+			"id": "96",
+			"type": "owl:Class"
+		},
+		{
+			"id": "97",
+			"type": "owl:Class"
+		},
+		{
+			"id": "102",
+			"type": "owl:Class"
+		},
+		{
+			"id": "103",
+			"type": "owl:Class"
+		},
+		{
+			"id": "108",
+			"type": "owl:Class"
+		},
+		{
+			"id": "111",
+			"type": "owl:Class"
+		},
+		{
+			"id": "113",
+			"type": "owl:Class"
+		},
+		{
+			"id": "115",
+			"type": "owl:Class"
+		},
+		{
+			"id": "118",
+			"type": "owl:Class"
+		},
+		{
+			"id": "78",
+			"type": "owl:Class"
+		},
+		{
+			"id": "121",
+			"type": "owl:Class"
+		},
+		{
+			"id": "123",
+			"type": "owl:Class"
+		},
+		{
+			"id": "124",
+			"type": "owl:Class"
+		},
+		{
+			"id": "127",
+			"type": "owl:Class"
+		},
+		{
+			"id": "131",
+			"type": "owl:Class"
+		},
+		{
+			"id": "132",
+			"type": "owl:Class"
+		},
+		{
+			"id": "45",
+			"type": "owl:Class"
+		},
+		{
+			"id": "134",
+			"type": "owl:Class"
+		},
+		{
+			"id": "135",
+			"type": "owl:Class"
+		},
+		{
+			"id": "136",
+			"type": "owl:Class"
+		},
+		{
+			"id": "138",
+			"type": "owl:Class"
+		},
+		{
+			"id": "139",
+			"type": "owl:Class"
+		},
+		{
+			"id": "141",
+			"type": "owl:Class"
+		},
+		{
+			"id": "142",
+			"type": "owl:Class"
+		},
+		{
+			"id": "143",
+			"type": "owl:Class"
+		},
+		{
+			"id": "146",
+			"type": "owl:Class"
+		},
+		{
+			"id": "147",
+			"type": "owl:Class"
+		},
+		{
+			"id": "148",
+			"type": "owl:Class"
+		},
+		{
+			"id": "152",
+			"type": "owl:Class"
+		},
+		{
+			"id": "153",
+			"type": "owl:Class"
+		},
+		{
+			"id": "155",
+			"type": "owl:Class"
+		},
+		{
+			"id": "156",
+			"type": "owl:Class"
+		},
+		{
+			"id": "158",
+			"type": "owl:Class"
+		},
+		{
+			"id": "159",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "83",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "160",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "161",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "151",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "162",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "12",
+			"type": "owl:Class"
+		},
+		{
+			"id": "110",
+			"type": "owl:Class"
+		},
+		{
+			"id": "165",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "170",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "112",
+			"type": "owl:Class"
+		},
+		{
+			"id": "171",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "174",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "62",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "175",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "145",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "182",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "183",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "184",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "173",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "187",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "188",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "189",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "196",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "8",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "191",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "52",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "13",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "200",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "201",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "48",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "203",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "70",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "204",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "207",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "57",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "89",
+			"type": "owl:Class"
+		},
+		{
+			"id": "109",
+			"type": "owl:Class"
+		},
+		{
+			"id": "216",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "217",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "218",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "46",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "130",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "219",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "220",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "213",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "140",
+			"type": "owl:Class"
+		},
+		{
+			"id": "60",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "221",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "114",
+			"type": "owl:Class"
+		},
+		{
+			"id": "226",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "229",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "223",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "230",
+			"type": "owl:Class"
+		},
+		{
+			"id": "231",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "76",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "177",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "233",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "234",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "43",
+			"type": "owl:Class"
+		},
+		{
+			"id": "235",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "236",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "225",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "237",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "238",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "239",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "240",
+			"type": "owl:Class"
+		},
+		{
+			"id": "23",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "244",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "73",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "21",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "245",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "95",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "246",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "209",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "247",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "126",
+			"type": "owl:Class"
+		},
+		{
+			"id": "248",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "119",
+			"type": "owl:Class"
+		},
+		{
+			"id": "92",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "65",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "261",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "262",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "211",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "263",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "55",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "264",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "107",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "265",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "266",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "267",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "268",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "269",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "68",
+			"type": "owl:Class"
+		},
+		{
+			"id": "277",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "278",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "279",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "206",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "284",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "285",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "286",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "287",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "290",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "291",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "125",
+			"type": "owl:Class"
+		},
+		{
+			"id": "296",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "100",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "258",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "228",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "297",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "164",
+			"type": "owl:Class"
+		},
+		{
+			"id": "19",
+			"type": "owl:Class"
+		},
+		{
+			"id": "94",
+			"type": "owl:Class"
+		},
+		{
+			"id": "40",
+			"type": "owl:Class"
+		},
+		{
+			"id": "317",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "283",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "309",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "80",
+			"type": "owl:Class"
+		},
+		{
+			"id": "133",
+			"type": "owl:Class"
+		},
+		{
+			"id": "215",
+			"type": "owl:Class"
+		},
+		{
+			"id": "319",
+			"type": "owl:Class"
+		},
+		{
+			"id": "16",
+			"type": "owl:Class"
+		},
+		{
+			"id": "137",
+			"type": "owl:Class"
+		},
+		{
+			"id": "85",
+			"type": "owl:Class"
+		},
+		{
+			"id": "311",
+			"type": "owl:Class"
+		},
+		{
+			"id": "67",
+			"type": "owl:Class"
+		},
+		{
+			"id": "122",
+			"type": "owl:Class"
+		},
+		{
+			"id": "157",
+			"type": "owl:Class"
+		},
+		{
+			"id": "273",
+			"type": "owl:Class"
+		},
+		{
+			"id": "25",
+			"type": "owl:Class"
+		},
+		{
+			"id": "90",
+			"type": "owl:Class"
+		},
+		{
+			"id": "357",
+			"type": "owl:Class"
+		},
+		{
+			"id": "289",
+			"type": "owl:Class"
+		},
+		{
+			"id": "371",
+			"type": "owl:Class"
+		},
+		{
+			"id": "294",
+			"type": "owl:Class"
+		},
+		{
+			"id": "360",
+			"type": "owl:Class"
+		},
+		{
+			"id": "169",
+			"type": "owl:Class"
+		},
+		{
+			"id": "104",
+			"type": "owl:Class"
+		},
+		{
+			"id": "168",
+			"type": "owl:Class"
+		},
+		{
+			"id": "372",
+			"type": "owl:Class"
+		},
+		{
+			"id": "281",
+			"type": "owl:Class"
+		},
+		{
+			"id": "255",
+			"type": "owl:Class"
+		},
+		{
+			"id": "254",
+			"type": "owl:Class"
+		},
+		{
+			"id": "257",
+			"type": "owl:Class"
+		},
+		{
+			"id": "374",
+			"type": "owl:Class"
+		},
+		{
+			"id": "375",
+			"type": "owl:Class"
+		},
+		{
+			"id": "260",
+			"type": "owl:Class"
+		},
+		{
+			"id": "349",
+			"type": "owl:Class"
+		},
+		{
+			"id": "351",
+			"type": "owl:Class"
+		},
+		{
+			"id": "251",
+			"type": "owl:Class"
+		},
+		{
+			"id": "116",
+			"type": "owl:Class"
+		},
+		{
+			"id": "250",
+			"type": "owl:Class"
+		},
+		{
+			"id": "129",
+			"type": "owl:Class"
+		},
+		{
+			"id": "87",
+			"type": "owl:Class"
+		},
+		{
+			"id": "64",
+			"type": "owl:Class"
+		},
+		{
+			"id": "154",
+			"type": "owl:Class"
+		},
+		{
+			"id": "336",
+			"type": "owl:Class"
+		},
+		{
+			"id": "99",
+			"type": "owl:Class"
+		},
+		{
+			"id": "242",
+			"type": "owl:Class"
+		},
+		{
+			"id": "381",
+			"type": "owl:Class"
+		},
+		{
+			"id": "338",
+			"type": "owl:Class"
+		},
+		{
+			"id": "106",
+			"type": "owl:Class"
+		},
+		{
+			"id": "344",
+			"type": "owl:Class"
+		},
+		{
+			"id": "181",
+			"type": "owl:Class"
+		},
+		{
+			"id": "81",
+			"type": "owl:Class"
+		},
+		{
+			"id": "199",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "194",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "72",
+			"type": "owl:Class"
+		},
+		{
+			"id": "392",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "393",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "186",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "394",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "179",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "301",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "305",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "41",
+			"type": "rdfs:Datatype"
+		},
+		{
+			"id": "398",
+			"type": "owl:Class"
+		},
+		{
+			"id": "117",
+			"type": "owl:Class"
+		}
+	],
+	"classAttribute": [
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "0",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "1",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "2",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "3",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "4",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "5",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "9",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "10",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#Feedback",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Feedback"
+			},
+			"attributes": ["external"],
+			"id": "14"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "26",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "27",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "28",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "29",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "30",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "31",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "32",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#PredictiveMaintenanceTechnology",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PredictiveMaintenanceTechnology"
+			},
+			"attributes": ["external"],
+			"id": "33"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "34",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "35",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#CargoStorage",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoStorage"
+			},
+			"attributes": ["external"],
+			"id": "36"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "37",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "38",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#FuelingOperation",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FuelingOperation"
+			},
+			"attributes": ["external"],
+			"id": "49"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "53",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#Season",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Season"
+			},
+			"attributes": ["external"],
+			"id": "59"
+		},
+		{
+			"iri": "http://example.org/ontology#PassengerData",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PassengerData"
+			},
+			"attributes": ["external"],
+			"id": "51"
+		},
+		{
+			"iri": "http://example.org/ontology#TrackingSystem",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "TrackingSystem"
+			},
+			"attributes": ["external"],
+			"id": "74"
+		},
+		{
+			"iri": "http://example.org/ontology#RegulatoryRequirement",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "RegulatoryRequirement"
+			},
+			"attributes": ["external"],
+			"id": "7"
+		},
+		{
+			"instances": 0,
+			"union": ["80", "81"],
+			"attributes": ["union", "anonymous"],
+			"id": "79"
+		},
+		{
+			"instances": 0,
+			"union": ["78", "85"],
+			"attributes": ["union", "anonymous"],
+			"id": "84"
+		},
+		{
+			"instances": 0,
+			"union": ["87", "14"],
+			"attributes": ["union", "anonymous"],
+			"id": "86"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "90"],
+			"attributes": ["union", "anonymous"],
+			"id": "88"
+		},
+		{
+			"iri": "http://example.org/ontology#Cargo",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Cargo"
+			},
+			"attributes": ["external"],
+			"id": "17"
+		},
+		{
+			"iri": "http://example.org/ontology#DataAnalytics",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "DataAnalytics"
+			},
+			"attributes": ["external"],
+			"id": "96"
+		},
+		{
+			"iri": "http://example.org/ontology#CustomerSatisfaction",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CustomerSatisfaction"
+			},
+			"attributes": ["external"],
+			"id": "97"
+		},
+		{
+			"instances": 0,
+			"union": ["94", "33"],
+			"attributes": ["union", "anonymous"],
+			"id": "102"
+		},
+		{
+			"instances": 0,
+			"union": ["85", "104"],
+			"attributes": ["union", "anonymous"],
+			"id": "103"
+		},
+		{
+			"instances": 0,
+			"union": ["109", "110"],
+			"attributes": ["union", "anonymous"],
+			"id": "108"
+		},
+		{
+			"instances": 0,
+			"union": ["96", "112"],
+			"attributes": ["union", "anonymous"],
+			"id": "111"
+		},
+		{
+			"instances": 0,
+			"union": ["40", "114", "68"],
+			"attributes": ["union", "anonymous"],
+			"id": "113"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117"],
+			"attributes": ["union", "anonymous"],
+			"id": "115"
+		},
+		{
+			"instances": 0,
+			"union": ["119", "87", "43"],
+			"attributes": ["union", "anonymous"],
+			"id": "118"
+		},
+		{
+			"iri": "http://example.org/ontology#SafetyProtocol",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "SafetyProtocol"
+			},
+			"attributes": ["external"],
+			"id": "78"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "122"],
+			"attributes": ["union", "anonymous"],
+			"id": "121"
+		},
+		{
+			"instances": 0,
+			"union": ["80", "49"],
+			"attributes": ["union", "anonymous"],
+			"id": "123"
+		},
+		{
+			"instances": 0,
+			"union": ["125", "126"],
+			"attributes": ["union", "anonymous"],
+			"id": "124"
+		},
+		{
+			"instances": 0,
+			"union": ["80", "81"],
+			"attributes": ["union", "anonymous"],
+			"id": "127"
+		},
+		{
+			"iri": "http://example.org/ontology#ServiceLevel",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "ServiceLevel"
+			},
+			"attributes": ["external"],
+			"id": "131"
+		},
+		{
+			"instances": 0,
+			"union": ["64", "133"],
+			"attributes": ["union", "anonymous"],
+			"id": "132"
+		},
+		{
+			"instances": 0,
+			"union": ["119", "87", "43"],
+			"attributes": ["union", "anonymous"],
+			"id": "45"
+		},
+		{
+			"instances": 0,
+			"union": ["64", "133"],
+			"attributes": ["union", "anonymous"],
+			"id": "134"
+		},
+		{
+			"iri": "http://example.org/ontology#MaintenanceProtocol",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "MaintenanceProtocol"
+			},
+			"attributes": ["external"],
+			"id": "135"
+		},
+		{
+			"instances": 0,
+			"union": ["51", "137"],
+			"attributes": ["union", "anonymous"],
+			"id": "136"
+		},
+		{
+			"instances": 0,
+			"union": ["80", "81"],
+			"attributes": ["union", "anonymous"],
+			"id": "138"
+		},
+		{
+			"instances": 0,
+			"union": ["140", "81", "16"],
+			"attributes": ["union", "anonymous"],
+			"id": "139"
+		},
+		{
+			"instances": 0,
+			"union": ["125", "137", "126", "117", "133", "49"],
+			"attributes": ["union", "anonymous"],
+			"id": "141"
+		},
+		{
+			"instances": 0,
+			"union": ["72", "97"],
+			"attributes": ["union", "anonymous"],
+			"id": "142"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117"],
+			"attributes": ["union", "anonymous"],
+			"id": "143"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "122"],
+			"attributes": ["union", "anonymous"],
+			"id": "146"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "122"],
+			"attributes": ["union", "anonymous"],
+			"id": "147"
+		},
+		{
+			"iri": "http://example.org/ontology#PassengerService",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PassengerService"
+			},
+			"attributes": ["external"],
+			"id": "148"
+		},
+		{
+			"iri": "http://example.org/ontology#AviationEquipment",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "AviationEquipment"
+			},
+			"attributes": ["external"],
+			"id": "152"
+		},
+		{
+			"instances": 0,
+			"union": ["154", "17"],
+			"attributes": ["union", "anonymous"],
+			"id": "153"
+		},
+		{
+			"instances": 0,
+			"union": ["67", "16"],
+			"attributes": ["union", "anonymous"],
+			"id": "155"
+		},
+		{
+			"instances": 0,
+			"union": ["157", "36"],
+			"attributes": ["union", "anonymous"],
+			"id": "156"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117"],
+			"attributes": ["union", "anonymous"],
+			"id": "158"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "159",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "83",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "160",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "161",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#boolean",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "151",
+			"label": {
+				"IRI-based": "boolean"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "162",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"instances": 0,
+			"union": ["125", "126"],
+			"attributes": ["union", "anonymous"],
+			"id": "12"
+		},
+		{
+			"iri": "http://example.org/ontology#DecisionMaking",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "DecisionMaking"
+			},
+			"attributes": ["external"],
+			"id": "110"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "165",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "170",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#Technology",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Technology"
+			},
+			"attributes": ["external"],
+			"id": "112"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "171",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "174",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "62",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "175",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#boolean",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "145",
+			"label": {
+				"IRI-based": "boolean"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "182",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "183",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "184",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "173",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "187",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "188",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "189",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "196",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "8",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "191",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "52",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "13",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "200",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "201",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "48",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#boolean",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "203",
+			"label": {
+				"IRI-based": "boolean"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "70",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "204",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "207",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "57",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#PerformanceEvaluation",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PerformanceEvaluation"
+			},
+			"attributes": ["external"],
+			"id": "89"
+		},
+		{
+			"iri": "http://example.org/ontology#Automation",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Automation"
+			},
+			"attributes": ["external"],
+			"id": "109"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "216",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "217",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "218",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "46",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "130",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#boolean",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "219",
+			"label": {
+				"IRI-based": "boolean"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#integer",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "220",
+			"label": {
+				"IRI-based": "integer"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "213",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#FuelingService",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FuelingService"
+			},
+			"attributes": ["external"],
+			"id": "140"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "60",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "221",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#AviationService",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "AviationService"
+			},
+			"attributes": ["external"],
+			"id": "114"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "226",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "229",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "223",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#EquipmentStatus",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "EquipmentStatus"
+			},
+			"attributes": ["external"],
+			"id": "230"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "231",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "76",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "177",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "233",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "234",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#EfficiencyMetric",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "EfficiencyMetric"
+			},
+			"attributes": ["external"],
+			"id": "43"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "235",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "236",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "225",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "237",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#integer",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "238",
+			"label": {
+				"IRI-based": "integer"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "239",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#DocumentationSystem",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "DocumentationSystem"
+			},
+			"attributes": ["external"],
+			"id": "240"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "23",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "244",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "73",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "21",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "245",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "95",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "246",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "209",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "247",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#LoadingProcedure",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "LoadingProcedure"
+			},
+			"attributes": ["external"],
+			"id": "126"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "248",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#PerformanceIndicator",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PerformanceIndicator"
+			},
+			"attributes": ["external"],
+			"id": "119"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "92",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "65",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "261",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "262",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "211",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "263",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "55",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "264",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "107",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#boolean",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "265",
+			"label": {
+				"IRI-based": "boolean"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "266",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "267",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "268",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "269",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#Airport",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Airport"
+			},
+			"attributes": ["external"],
+			"id": "68"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "277",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "278",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "279",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "206",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "284",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "285",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "286",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "287",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "290",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "291",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#UnloadingProcedure",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "UnloadingProcedure"
+			},
+			"attributes": ["external"],
+			"id": "125"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "296",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "100",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "258",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "228",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "297",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#Challenge",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Challenge"
+			},
+			"attributes": ["external"],
+			"id": "164"
+		},
+		{
+			"iri": "http://example.org/ontology#InventoryManagement",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "InventoryManagement"
+			},
+			"attributes": ["external"],
+			"id": "19"
+		},
+		{
+			"iri": "http://example.org/ontology#BestPractice",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "BestPractice"
+			},
+			"attributes": ["external"],
+			"id": "94"
+		},
+		{
+			"iri": "http://example.org/ontology#Passenger",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Passenger"
+			},
+			"attributes": ["external"],
+			"id": "40"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "317",
+			"label": {
+				"IRI-based": "dateTime"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "283",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "309",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#CargoOperation",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoOperation"
+			},
+			"attributes": ["external"],
+			"id": "80"
+		},
+		{
+			"iri": "http://example.org/ontology#WeightMeasurement",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "WeightMeasurement"
+			},
+			"attributes": ["external"],
+			"id": "133"
+		},
+		{
+			"iri": "http://example.org/ontology#MaintenanceRecord",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "MaintenanceRecord"
+			},
+			"attributes": ["external"],
+			"id": "215"
+		},
+		{
+			"iri": "http://example.org/ontology#FuelingSupply",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FuelingSupply"
+			},
+			"attributes": ["external"],
+			"id": "319"
+		},
+		{
+			"iri": "http://example.org/ontology#CargoHandling",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoHandling"
+			},
+			"attributes": ["external"],
+			"id": "16"
+		},
+		{
+			"iri": "http://example.org/ontology#CheckInStep",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CheckInStep"
+			},
+			"attributes": ["external"],
+			"id": "137"
+		},
+		{
+			"iri": "http://example.org/ontology#ManagementProtocol",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "ManagementProtocol"
+			},
+			"attributes": ["external"],
+			"id": "85"
+		},
+		{
+			"iri": "http://example.org/ontology#EnvironmentalImpact",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "EnvironmentalImpact"
+			},
+			"attributes": ["external"],
+			"id": "311"
+		},
+		{
+			"iri": "http://example.org/ontology#DigitalSolution",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "DigitalSolution"
+			},
+			"attributes": ["external"],
+			"id": "67"
+		},
+		{
+			"iri": "http://example.org/ontology#DigitalSolutionEvaluation",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "DigitalSolutionEvaluation"
+			},
+			"attributes": ["external"],
+			"id": "122"
+		},
+		{
+			"iri": "http://example.org/ontology#CargoManagement",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoManagement"
+			},
+			"attributes": ["external"],
+			"id": "157"
+		},
+		{
+			"iri": "http://example.org/ontology#Aircraft",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Aircraft"
+			},
+			"attributes": ["external"],
+			"id": "273"
+		},
+		{
+			"iri": "http://example.org/ontology#CargoType",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoType"
+			},
+			"attributes": ["external"],
+			"id": "25"
+		},
+		{
+			"iri": "http://example.org/ontology#FeedbackAnalysis",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FeedbackAnalysis"
+			},
+			"attributes": ["external"],
+			"id": "90"
+		},
+		{
+			"instances": 0,
+			"union": ["140", "114"],
+			"attributes": ["union", "anonymous"],
+			"id": "357"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117"],
+			"attributes": ["union", "anonymous"],
+			"id": "289"
+		},
+		{
+			"instances": 0,
+			"union": ["311", "125", "137", "164", "126", "16"],
+			"attributes": ["union", "anonymous"],
+			"id": "371"
+		},
+		{
+			"instances": 0,
+			"union": ["125", "78", "126", "16", "104"],
+			"attributes": ["union", "anonymous"],
+			"id": "294"
+		},
+		{
+			"instances": 0,
+			"union": ["94", "33"],
+			"attributes": ["union", "anonymous"],
+			"id": "360"
+		},
+		{
+			"instances": 0,
+			"union": ["16", "273", "152"],
+			"attributes": ["union", "anonymous"],
+			"id": "169"
+		},
+		{
+			"iri": "http://example.org/ontology#HazardousCargoProtocol",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "HazardousCargoProtocol"
+			},
+			"attributes": ["external"],
+			"id": "104"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117", "33"],
+			"attributes": ["union", "anonymous"],
+			"id": "168"
+		},
+		{
+			"instances": 0,
+			"union": ["140", "114", "68"],
+			"attributes": ["union", "anonymous"],
+			"id": "372"
+		},
+		{
+			"instances": 0,
+			"union": ["81", "114", "68"],
+			"attributes": ["union", "anonymous"],
+			"id": "281"
+		},
+		{
+			"instances": 0,
+			"union": ["237", "238"],
+			"attributes": ["union", "anonymous"],
+			"id": "255"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "117", "68"],
+			"attributes": ["union", "anonymous"],
+			"id": "254"
+		},
+		{
+			"instances": 0,
+			"union": ["78", "25", "7"],
+			"attributes": ["union", "anonymous"],
+			"id": "257"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "122"],
+			"attributes": ["union", "anonymous"],
+			"id": "374"
+		},
+		{
+			"instances": 0,
+			"union": ["311", "164"],
+			"attributes": ["union", "anonymous"],
+			"id": "375"
+		},
+		{
+			"instances": 0,
+			"union": ["140", "114"],
+			"attributes": ["union", "anonymous"],
+			"id": "260"
+		},
+		{
+			"instances": 0,
+			"union": ["125", "137", "126"],
+			"attributes": ["union", "anonymous"],
+			"id": "349"
+		},
+		{
+			"instances": 0,
+			"union": ["78", "85", "104"],
+			"attributes": ["union", "anonymous"],
+			"id": "351"
+		},
+		{
+			"instances": 0,
+			"union": ["116", "114"],
+			"attributes": ["union", "anonymous"],
+			"id": "251"
+		},
+		{
+			"iri": "http://example.org/ontology#CargoHandlingEquipment",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CargoHandlingEquipment"
+			},
+			"attributes": ["external"],
+			"id": "116"
+		},
+		{
+			"instances": 0,
+			"union": ["25", "17"],
+			"attributes": ["union", "anonymous"],
+			"id": "250"
+		},
+		{
+			"instances": 0,
+			"union": ["72", "97"],
+			"attributes": ["union", "anonymous"],
+			"id": "129"
+		},
+		{
+			"iri": "http://example.org/ontology#ReliabilityMetric",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "ReliabilityMetric"
+			},
+			"attributes": ["external"],
+			"id": "87"
+		},
+		{
+			"iri": "http://example.org/ontology#FuelQuality",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FuelQuality"
+			},
+			"attributes": ["external"],
+			"id": "64"
+		},
+		{
+			"iri": "http://example.org/ontology#PassengerInteraction",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PassengerInteraction"
+			},
+			"attributes": ["external"],
+			"id": "154"
+		},
+		{
+			"instances": 0,
+			"union": ["87", "43"],
+			"attributes": ["union", "anonymous"],
+			"id": "336"
+		},
+		{
+			"instances": 0,
+			"union": ["140", "16"],
+			"attributes": ["union", "anonymous"],
+			"id": "99"
+		},
+		{
+			"instances": 0,
+			"union": ["94", "78", "85", "104", "7"],
+			"attributes": ["union", "anonymous"],
+			"id": "242"
+		},
+		{
+			"instances": 0,
+			"union": ["72", "97"],
+			"attributes": ["union", "anonymous"],
+			"id": "381"
+		},
+		{
+			"instances": 0,
+			"union": ["89", "122"],
+			"attributes": ["union", "anonymous"],
+			"id": "338"
+		},
+		{
+			"instances": 0,
+			"union": ["119", "87", "43"],
+			"attributes": ["union", "anonymous"],
+			"id": "106"
+		},
+		{
+			"instances": 0,
+			"union": ["119", "43"],
+			"attributes": ["union", "anonymous"],
+			"id": "344"
+		},
+		{
+			"iri": "http://example.org/ontology#ServiceDisruption",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "ServiceDisruption"
+			},
+			"attributes": ["external"],
+			"id": "181"
+		},
+		{
+			"iri": "http://example.org/ontology#CheckInProcess",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "CheckInProcess"
+			},
+			"attributes": ["external"],
+			"id": "81"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "199",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "194",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#PassengerExperience",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "PassengerExperience"
+			},
+			"attributes": ["external"],
+			"id": "72"
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "392",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "393",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "186",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "394",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "179",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#float",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "301",
+			"label": {
+				"IRI-based": "float"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "305",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://www.w3.org/2001/XMLSchema#string",
+			"baseIri": "http://www.w3.org/2001/XMLSchema",
+			"id": "41",
+			"label": {
+				"IRI-based": "string"
+			}
+		},
+		{
+			"iri": "http://example.org/ontology#MaintenanceSchedule",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "MaintenanceSchedule"
+			},
+			"attributes": ["external"],
+			"id": "398"
+		},
+		{
+			"iri": "http://example.org/ontology#FuelingEquipment",
+			"baseIri": "http://example.org/ontology",
+			"instances": 0,
+			"label": {
+				"IRI-based": "FuelingEquipment"
+			},
+			"attributes": ["external"],
+			"id": "117"
+		}
+	],
+	"property": [
+		{
+			"id": "6",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "11",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "15",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "18",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "20",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "22",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "24",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "39",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "42",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "44",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "47",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "50",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "54",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "56",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "58",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "61",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "63",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "66",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "69",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "71",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "75",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "77",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "82",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "91",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "93",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "98",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "101",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "105",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "120",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "128",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "144",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "149",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "150",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "163",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "166",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "167",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "172",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "176",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "178",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "180",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "185",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "190",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "192",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "193",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "195",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "197",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "198",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "202",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "205",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "208",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "210",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "212",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "214",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "222",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "224",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "227",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "232",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "241",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "243",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "249",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "252",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "253",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "256",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "259",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "270",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "271",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "272",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "274",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "275",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "276",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "280",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "282",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "288",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "292",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "293",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "295",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "298",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "299",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "300",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "302",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "303",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "304",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "306",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "307",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "308",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "310",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "312",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "313",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "314",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "315",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "316",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "318",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "320",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "321",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "322",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "323",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "324",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "325",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "326",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "327",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "328",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "329",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "330",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "331",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "332",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "333",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "334",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "335",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "337",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "339",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "340",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "341",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "342",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "343",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "345",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "346",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "347",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "348",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "350",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "352",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "353",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "354",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "355",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "356",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "358",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "359",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "361",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "362",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "363",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "364",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "365",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "366",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "367",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "368",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "369",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "370",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "373",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "376",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "377",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "378",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "379",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "380",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "382",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "383",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "384",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "385",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "386",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "387",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "388",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "389",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "390",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "391",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "395",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "396",
+			"type": "owl:objectProperty"
+		},
+		{
+			"id": "397",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "399",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "400",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "401",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "402",
+			"type": "owl:datatypeProperty"
+		},
+		{
+			"id": "403",
+			"type": "owl:datatypeProperty"
+		}
+	],
+	"propertyAttribute": [
+		{
+			"iri": "http://example.org/ontology#complianceDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "8",
+			"label": {
+				"IRI-based": "complianceDate"
+			},
+			"domain": "7",
+			"attributes": ["external", "datatype"],
+			"id": "6"
+		},
+		{
+			"iri": "http://example.org/ontology#safetyMeasures",
+			"baseIri": "http://example.org/ontology",
+			"range": "13",
+			"label": {
+				"IRI-based": "safetyMeasures"
+			},
+			"domain": "12",
+			"attributes": ["external", "datatype"],
+			"id": "11"
+		},
+		{
+			"iri": "http://example.org/ontology#ensuresSafetyFor",
+			"baseIri": "http://example.org/ontology",
+			"range": "17",
+			"label": {
+				"IRI-based": "ensuresSafetyFor"
+			},
+			"domain": "16",
+			"attributes": ["external", "object"],
+			"id": "15"
+		},
+		{
+			"iri": "http://example.org/ontology#totalValue",
+			"baseIri": "http://example.org/ontology",
+			"range": "10",
+			"label": {
+				"IRI-based": "totalValue"
+			},
+			"domain": "19",
+			"attributes": ["external", "datatype"],
+			"id": "18"
+		},
+		{
+			"iri": "http://example.org/ontology#feedbackType",
+			"baseIri": "http://example.org/ontology",
+			"range": "21",
+			"label": {
+				"IRI-based": "feedbackType"
+			},
+			"domain": "14",
+			"attributes": ["external", "datatype"],
+			"id": "20"
+		},
+		{
+			"iri": "http://example.org/ontology#dimensions",
+			"baseIri": "http://example.org/ontology",
+			"range": "23",
+			"label": {
+				"IRI-based": "dimensions"
+			},
+			"domain": "17",
+			"attributes": ["external", "datatype"],
+			"id": "22"
+		},
+		{
+			"iri": "http://example.org/ontology#requires",
+			"baseIri": "http://example.org/ontology",
+			"range": "16",
+			"label": {
+				"IRI-based": "requires"
+			},
+			"domain": "25",
+			"attributes": ["external", "object"],
+			"id": "24"
+		},
+		{
+			"iri": "http://example.org/ontology#flightDetails",
+			"baseIri": "http://example.org/ontology",
+			"range": "41",
+			"label": {
+				"IRI-based": "flightDetails"
+			},
+			"domain": "40",
+			"attributes": ["external", "datatype"],
+			"id": "39"
+		},
+		{
+			"iri": "http://example.org/ontology#isUsedToMeasure",
+			"baseIri": "http://example.org/ontology",
+			"range": "16",
+			"label": {
+				"IRI-based": "isUsedToMeasure"
+			},
+			"domain": "43",
+			"attributes": ["external", "object"],
+			"id": "42"
+		},
+		{
+			"iri": "http://example.org/ontology#targetValue",
+			"baseIri": "http://example.org/ontology",
+			"range": "46",
+			"label": {
+				"IRI-based": "targetValue"
+			},
+			"domain": "45",
+			"attributes": ["external", "datatype"],
+			"id": "44"
+		},
+		{
+			"iri": "http://example.org/ontology#submissionTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "48",
+			"label": {
+				"IRI-based": "submissionTime"
+			},
+			"domain": "14",
+			"attributes": ["external", "datatype"],
+			"id": "47"
+		},
+		{
+			"iri": "http://example.org/ontology#dataType",
+			"baseIri": "http://example.org/ontology",
+			"range": "52",
+			"label": {
+				"IRI-based": "dataType"
+			},
+			"domain": "51",
+			"attributes": ["external", "datatype"],
+			"id": "50"
+		},
+		{
+			"iri": "http://example.org/ontology#lastUpdated",
+			"baseIri": "http://example.org/ontology",
+			"range": "55",
+			"label": {
+				"IRI-based": "lastUpdated"
+			},
+			"domain": "19",
+			"attributes": ["external", "datatype"],
+			"id": "54"
+		},
+		{
+			"iri": "http://example.org/ontology#penaltiesForNonCompliance",
+			"baseIri": "http://example.org/ontology",
+			"range": "57",
+			"label": {
+				"IRI-based": "penaltiesForNonCompliance"
+			},
+			"domain": "7",
+			"attributes": ["external", "datatype"],
+			"id": "56"
+		},
+		{
+			"iri": "http://example.org/ontology#endDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "60",
+			"label": {
+				"IRI-based": "endDate"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "58"
+		},
+		{
+			"iri": "http://example.org/ontology#amountFueled",
+			"baseIri": "http://example.org/ontology",
+			"range": "62",
+			"label": {
+				"IRI-based": "amountFueled"
+			},
+			"domain": "49",
+			"attributes": ["external", "datatype"],
+			"id": "61"
+		},
+		{
+			"iri": "http://example.org/ontology#complianceStandard",
+			"baseIri": "http://example.org/ontology",
+			"range": "65",
+			"label": {
+				"IRI-based": "complianceStandard"
+			},
+			"domain": "64",
+			"attributes": ["external", "datatype"],
+			"id": "63"
+		},
+		{
+			"iri": "http://example.org/ontology#isAvailableAt",
+			"baseIri": "http://example.org/ontology",
+			"range": "68",
+			"label": {
+				"IRI-based": "isAvailableAt"
+			},
+			"domain": "67",
+			"attributes": ["external", "object"],
+			"id": "66"
+		},
+		{
+			"iri": "http://example.org/ontology#operationTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "70",
+			"label": {
+				"IRI-based": "operationTime"
+			},
+			"domain": "49",
+			"attributes": ["external", "datatype"],
+			"id": "69"
+		},
+		{
+			"iri": "http://example.org/ontology#overallRating",
+			"baseIri": "http://example.org/ontology",
+			"range": "73",
+			"label": {
+				"IRI-based": "overallRating"
+			},
+			"domain": "72",
+			"attributes": ["external", "datatype"],
+			"id": "71"
+		},
+		{
+			"iri": "http://example.org/ontology#inventoryID",
+			"baseIri": "http://example.org/ontology",
+			"range": "76",
+			"label": {
+				"IRI-based": "inventoryID"
+			},
+			"domain": "19",
+			"attributes": ["external", "datatype"],
+			"id": "75"
+		},
+		{
+			"iri": "http://example.org/ontology#isImplementedIn",
+			"baseIri": "http://example.org/ontology",
+			"range": "16",
+			"label": {
+				"IRI-based": "isImplementedIn"
+			},
+			"domain": "78",
+			"attributes": ["external", "object"],
+			"id": "77"
+		},
+		{
+			"iri": "http://example.org/ontology#airportCode",
+			"baseIri": "http://example.org/ontology",
+			"range": "83",
+			"label": {
+				"IRI-based": "airportCode"
+			},
+			"domain": "68",
+			"attributes": ["external", "datatype"],
+			"id": "82"
+		},
+		{
+			"iri": "http://example.org/ontology#fuelType",
+			"baseIri": "http://example.org/ontology",
+			"range": "92",
+			"label": {
+				"IRI-based": "fuelType"
+			},
+			"domain": "49",
+			"attributes": ["external", "datatype"],
+			"id": "91"
+		},
+		{
+			"iri": "http://example.org/ontology#practiceID",
+			"baseIri": "http://example.org/ontology",
+			"range": "95",
+			"label": {
+				"IRI-based": "practiceID"
+			},
+			"domain": "94",
+			"attributes": ["external", "datatype"],
+			"id": "93"
+		},
+		{
+			"iri": "http://example.org/ontology#equipmentUsed",
+			"baseIri": "http://example.org/ontology",
+			"range": "100",
+			"label": {
+				"IRI-based": "equipmentUsed"
+			},
+			"domain": "99",
+			"attributes": ["external", "datatype"],
+			"id": "98"
+		},
+		{
+			"iri": "http://example.org/ontology#cost",
+			"baseIri": "http://example.org/ontology",
+			"range": "5",
+			"label": {
+				"IRI-based": "cost"
+			},
+			"domain": "33",
+			"attributes": ["external", "datatype"],
+			"id": "101"
+		},
+		{
+			"iri": "http://example.org/ontology#measurementFrequency",
+			"baseIri": "http://example.org/ontology",
+			"range": "107",
+			"label": {
+				"IRI-based": "measurementFrequency"
+			},
+			"domain": "106",
+			"attributes": ["external", "datatype"],
+			"id": "105"
+		},
+		{
+			"iri": "http://example.org/ontology#isInformedBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "96",
+			"label": {
+				"IRI-based": "isInformedBy"
+			},
+			"domain": "80",
+			"attributes": ["external", "object"],
+			"id": "120"
+		},
+		{
+			"iri": "http://example.org/ontology#feedbackComments",
+			"baseIri": "http://example.org/ontology",
+			"range": "130",
+			"label": {
+				"IRI-based": "feedbackComments"
+			},
+			"domain": "129",
+			"attributes": ["external", "datatype"],
+			"id": "128"
+		},
+		{
+			"iri": "http://example.org/ontology#peakTraffic",
+			"baseIri": "http://example.org/ontology",
+			"range": "145",
+			"label": {
+				"IRI-based": "peakTraffic"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "144"
+		},
+		{
+			"iri": "http://example.org/ontology#technologyType",
+			"baseIri": "http://example.org/ontology",
+			"range": "35",
+			"label": {
+				"IRI-based": "technologyType"
+			},
+			"domain": "33",
+			"attributes": ["external", "datatype"],
+			"id": "149"
+		},
+		{
+			"iri": "http://example.org/ontology#isHazardous",
+			"baseIri": "http://example.org/ontology",
+			"range": "151",
+			"label": {
+				"IRI-based": "isHazardous"
+			},
+			"domain": "25",
+			"attributes": ["external", "datatype"],
+			"id": "150"
+		},
+		{
+			"iri": "http://example.org/ontology#affectedProcesses",
+			"baseIri": "http://example.org/ontology",
+			"range": "165",
+			"label": {
+				"IRI-based": "affectedProcesses"
+			},
+			"domain": "164",
+			"attributes": ["external", "datatype"],
+			"id": "163"
+		},
+		{
+			"iri": "http://example.org/ontology#accuracy",
+			"baseIri": "http://example.org/ontology",
+			"range": "30",
+			"label": {
+				"IRI-based": "accuracy"
+			},
+			"domain": "133",
+			"attributes": ["external", "datatype"],
+			"id": "166"
+		},
+		{
+			"iri": "http://example.org/ontology#isUsedFor",
+			"baseIri": "http://example.org/ontology",
+			"range": "169",
+			"label": {
+				"IRI-based": "isUsedFor"
+			},
+			"domain": "168",
+			"attributes": ["external", "object"],
+			"id": "167"
+		},
+		{
+			"iri": "http://example.org/ontology#safetyProtocols",
+			"baseIri": "http://example.org/ontology",
+			"range": "173",
+			"label": {
+				"IRI-based": "safetyProtocols"
+			},
+			"domain": "16",
+			"attributes": ["external", "datatype"],
+			"id": "172"
+		},
+		{
+			"iri": "http://example.org/ontology#startDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "177",
+			"label": {
+				"IRI-based": "startDate"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "176"
+		},
+		{
+			"iri": "http://example.org/ontology#equipmentType",
+			"baseIri": "http://example.org/ontology",
+			"range": "179",
+			"label": {
+				"IRI-based": "equipmentType"
+			},
+			"domain": "158",
+			"attributes": ["external", "datatype"],
+			"id": "178"
+		},
+		{
+			"iri": "http://example.org/ontology#isManagedBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "85",
+			"label": {
+				"IRI-based": "isManagedBy"
+			},
+			"domain": "181",
+			"attributes": ["external", "object"],
+			"id": "180"
+		},
+		{
+			"iri": "http://example.org/ontology#disruptionDuration",
+			"baseIri": "http://example.org/ontology",
+			"range": "186",
+			"label": {
+				"IRI-based": "disruptionDuration"
+			},
+			"domain": "181",
+			"attributes": ["external", "datatype"],
+			"id": "185"
+		},
+		{
+			"iri": "http://example.org/ontology#stepName",
+			"baseIri": "http://example.org/ontology",
+			"range": "191",
+			"label": {
+				"IRI-based": "stepName"
+			},
+			"domain": "137",
+			"attributes": ["external", "datatype"],
+			"id": "190"
+		},
+		{
+			"iri": "http://example.org/ontology#satisfactionScore",
+			"baseIri": "http://example.org/ontology",
+			"range": "175",
+			"label": {
+				"IRI-based": "satisfactionScore"
+			},
+			"domain": "142",
+			"attributes": ["external", "datatype"],
+			"id": "192"
+		},
+		{
+			"iri": "http://example.org/ontology#evaluationMethod",
+			"baseIri": "http://example.org/ontology",
+			"range": "194",
+			"label": {
+				"IRI-based": "evaluationMethod"
+			},
+			"domain": "146",
+			"attributes": ["external", "datatype"],
+			"id": "193"
+		},
+		{
+			"iri": "http://example.org/ontology#dataValue",
+			"baseIri": "http://example.org/ontology",
+			"range": "183",
+			"label": {
+				"IRI-based": "dataValue"
+			},
+			"domain": "51",
+			"attributes": ["external", "datatype"],
+			"id": "195"
+		},
+		{
+			"iri": "http://example.org/ontology#measurementMethod",
+			"baseIri": "http://example.org/ontology",
+			"range": "189",
+			"label": {
+				"IRI-based": "measurementMethod"
+			},
+			"domain": "134",
+			"attributes": ["external", "datatype"],
+			"id": "197"
+		},
+		{
+			"iri": "http://example.org/ontology#technologyName",
+			"baseIri": "http://example.org/ontology",
+			"range": "199",
+			"label": {
+				"IRI-based": "technologyName"
+			},
+			"domain": "33",
+			"attributes": ["external", "datatype"],
+			"id": "198"
+		},
+		{
+			"iri": "http://example.org/ontology#pricingModel",
+			"baseIri": "http://example.org/ontology",
+			"range": "200",
+			"label": {
+				"IRI-based": "pricingModel"
+			},
+			"domain": "140",
+			"attributes": ["external", "datatype"],
+			"id": "202"
+		},
+		{
+			"iri": "http://example.org/ontology#handlingRequirements",
+			"baseIri": "http://example.org/ontology",
+			"range": "206",
+			"label": {
+				"IRI-based": "handlingRequirements"
+			},
+			"domain": "25",
+			"attributes": ["external", "datatype"],
+			"id": "205"
+		},
+		{
+			"iri": "http://example.org/ontology#disruptionID",
+			"baseIri": "http://example.org/ontology",
+			"range": "209",
+			"label": {
+				"IRI-based": "disruptionID"
+			},
+			"domain": "181",
+			"attributes": ["external", "datatype"],
+			"id": "208"
+		},
+		{
+			"iri": "http://example.org/ontology#staffInvolved",
+			"baseIri": "http://example.org/ontology",
+			"range": "211",
+			"label": {
+				"IRI-based": "staffInvolved"
+			},
+			"domain": "138",
+			"attributes": ["external", "datatype"],
+			"id": "210"
+		},
+		{
+			"iri": "http://example.org/ontology#findings",
+			"baseIri": "http://example.org/ontology",
+			"range": "213",
+			"label": {
+				"IRI-based": "findings"
+			},
+			"domain": "121",
+			"attributes": ["external", "datatype"],
+			"id": "212"
+		},
+		{
+			"iri": "http://example.org/ontology#isCreatedFor",
+			"baseIri": "http://example.org/ontology",
+			"range": "152",
+			"label": {
+				"IRI-based": "isCreatedFor"
+			},
+			"domain": "215",
+			"attributes": ["external", "object"],
+			"id": "214"
+		},
+		{
+			"iri": "http://example.org/ontology#disruptionType",
+			"baseIri": "http://example.org/ontology",
+			"range": "223",
+			"label": {
+				"IRI-based": "disruptionType"
+			},
+			"domain": "181",
+			"attributes": ["external", "datatype"],
+			"id": "222"
+		},
+		{
+			"iri": "http://example.org/ontology#qualityMetric",
+			"baseIri": "http://example.org/ontology",
+			"range": "225",
+			"label": {
+				"IRI-based": "qualityMetric"
+			},
+			"domain": "64",
+			"attributes": ["external", "datatype"],
+			"id": "224"
+		},
+		{
+			"iri": "http://example.org/ontology#cargoType",
+			"baseIri": "http://example.org/ontology",
+			"range": "228",
+			"label": {
+				"IRI-based": "cargoType"
+			},
+			"domain": "17",
+			"attributes": ["external", "datatype"],
+			"id": "227"
+		},
+		{
+			"iri": "http://example.org/ontology#passengerID",
+			"baseIri": "http://example.org/ontology",
+			"range": "218",
+			"label": {
+				"IRI-based": "passengerID"
+			},
+			"domain": "40",
+			"attributes": ["external", "datatype"],
+			"id": "232"
+		},
+		{
+			"iri": "http://example.org/ontology#reviewFrequency",
+			"baseIri": "http://example.org/ontology",
+			"range": "162",
+			"label": {
+				"IRI-based": "reviewFrequency"
+			},
+			"domain": "242",
+			"attributes": ["external", "datatype"],
+			"id": "241"
+		},
+		{
+			"iri": "http://example.org/ontology#enhances",
+			"baseIri": "http://example.org/ontology",
+			"range": "72",
+			"label": {
+				"IRI-based": "enhances"
+			},
+			"domain": "67",
+			"attributes": ["external", "object"],
+			"id": "243"
+		},
+		{
+			"iri": "http://example.org/ontology#isHandledBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "251",
+			"label": {
+				"IRI-based": "isHandledBy"
+			},
+			"domain": "250",
+			"attributes": ["external", "object"],
+			"id": "249"
+		},
+		{
+			"iri": "http://example.org/ontology#isMonitoredIn",
+			"baseIri": "http://example.org/ontology",
+			"range": "49",
+			"label": {
+				"IRI-based": "isMonitoredIn"
+			},
+			"domain": "64",
+			"attributes": ["external", "object"],
+			"id": "252"
+		},
+		{
+			"iri": "http://example.org/ontology#capacity",
+			"baseIri": "http://example.org/ontology",
+			"range": "255",
+			"label": {
+				"IRI-based": "capacity"
+			},
+			"domain": "254",
+			"attributes": ["external", "datatype"],
+			"id": "253"
+		},
+		{
+			"iri": "http://example.org/ontology#description",
+			"baseIri": "http://example.org/ontology",
+			"range": "258",
+			"label": {
+				"IRI-based": "description"
+			},
+			"domain": "257",
+			"attributes": ["external", "datatype"],
+			"id": "256"
+		},
+		{
+			"iri": "http://example.org/ontology#serviceType",
+			"baseIri": "http://example.org/ontology",
+			"range": "207",
+			"label": {
+				"IRI-based": "serviceType"
+			},
+			"domain": "260",
+			"attributes": ["external", "datatype"],
+			"id": "259"
+		},
+		{
+			"iri": "http://example.org/ontology#precipitation",
+			"baseIri": "http://example.org/ontology",
+			"range": "3",
+			"label": {
+				"IRI-based": "precipitation"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "270"
+		},
+		{
+			"iri": "http://example.org/ontology#collectionTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "34",
+			"label": {
+				"IRI-based": "collectionTime"
+			},
+			"domain": "51",
+			"attributes": ["external", "datatype"],
+			"id": "271"
+		},
+		{
+			"iri": "http://example.org/ontology#isUsedBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "273",
+			"label": {
+				"IRI-based": "isUsedBy"
+			},
+			"domain": "140",
+			"attributes": ["external", "object"],
+			"id": "272"
+		},
+		{
+			"iri": "http://example.org/ontology#measurementDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "29",
+			"label": {
+				"IRI-based": "measurementDate"
+			},
+			"domain": "97",
+			"attributes": ["external", "datatype"],
+			"id": "274"
+		},
+		{
+			"iri": "http://example.org/ontology#operatorID",
+			"baseIri": "http://example.org/ontology",
+			"range": "9",
+			"label": {
+				"IRI-based": "operatorID"
+			},
+			"domain": "49",
+			"attributes": ["external", "datatype"],
+			"id": "275"
+		},
+		{
+			"iri": "http://example.org/ontology#disruptionSeverity",
+			"baseIri": "http://example.org/ontology",
+			"range": "170",
+			"label": {
+				"IRI-based": "disruptionSeverity"
+			},
+			"domain": "181",
+			"attributes": ["external", "datatype"],
+			"id": "276"
+		},
+		{
+			"iri": "http://example.org/ontology#location",
+			"baseIri": "http://example.org/ontology",
+			"range": "160",
+			"label": {
+				"IRI-based": "location"
+			},
+			"domain": "281",
+			"attributes": ["external", "datatype"],
+			"id": "280"
+		},
+		{
+			"iri": "http://example.org/ontology#satisfactionID",
+			"baseIri": "http://example.org/ontology",
+			"range": "283",
+			"label": {
+				"IRI-based": "satisfactionID"
+			},
+			"domain": "97",
+			"attributes": ["external", "datatype"],
+			"id": "282"
+		},
+		{
+			"iri": "http://example.org/ontology#equipmentName",
+			"baseIri": "http://example.org/ontology",
+			"range": "37",
+			"label": {
+				"IRI-based": "equipmentName"
+			},
+			"domain": "289",
+			"attributes": ["external", "datatype"],
+			"id": "288"
+		},
+		{
+			"iri": "http://example.org/ontology#assesses",
+			"baseIri": "http://example.org/ontology",
+			"range": "67",
+			"label": {
+				"IRI-based": "assesses"
+			},
+			"domain": "122",
+			"attributes": ["external", "object"],
+			"id": "292"
+		},
+		{
+			"iri": "http://example.org/ontology#trainingRequired",
+			"baseIri": "http://example.org/ontology",
+			"range": "203",
+			"label": {
+				"IRI-based": "trainingRequired"
+			},
+			"domain": "294",
+			"attributes": ["external", "datatype"],
+			"id": "293"
+		},
+		{
+			"iri": "http://example.org/ontology#metricID",
+			"baseIri": "http://example.org/ontology",
+			"range": "1",
+			"label": {
+				"IRI-based": "metricID"
+			},
+			"domain": "87",
+			"attributes": ["external", "datatype"],
+			"id": "295"
+		},
+		{
+			"iri": "http://example.org/ontology#typeName",
+			"baseIri": "http://example.org/ontology",
+			"range": "246",
+			"label": {
+				"IRI-based": "typeName"
+			},
+			"domain": "25",
+			"attributes": ["external", "datatype"],
+			"id": "298"
+		},
+		{
+			"iri": "http://example.org/ontology#impacts",
+			"baseIri": "http://example.org/ontology",
+			"range": "153",
+			"label": {
+				"IRI-based": "impacts"
+			},
+			"domain": "155",
+			"attributes": ["external", "object"],
+			"id": "299"
+		},
+		{
+			"iri": "http://example.org/ontology#operatingCost",
+			"baseIri": "http://example.org/ontology",
+			"range": "301",
+			"label": {
+				"IRI-based": "operatingCost"
+			},
+			"domain": "143",
+			"attributes": ["external", "datatype"],
+			"id": "300"
+		},
+		{
+			"iri": "http://example.org/ontology#evaluationID",
+			"baseIri": "http://example.org/ontology",
+			"range": "262",
+			"label": {
+				"IRI-based": "evaluationID"
+			},
+			"domain": "147",
+			"attributes": ["external", "datatype"],
+			"id": "302"
+		},
+		{
+			"iri": "http://example.org/ontology#isOfferedAt",
+			"baseIri": "http://example.org/ontology",
+			"range": "68",
+			"label": {
+				"IRI-based": "isOfferedAt"
+			},
+			"domain": "140",
+			"attributes": ["external", "object"],
+			"id": "303"
+		},
+		{
+			"iri": "http://example.org/ontology#experienceID",
+			"baseIri": "http://example.org/ontology",
+			"range": "305",
+			"label": {
+				"IRI-based": "experienceID"
+			},
+			"domain": "72",
+			"attributes": ["external", "datatype"],
+			"id": "304"
+		},
+		{
+			"iri": "http://example.org/ontology#measures",
+			"baseIri": "http://example.org/ontology",
+			"range": "148",
+			"label": {
+				"IRI-based": "measures"
+			},
+			"domain": "119",
+			"attributes": ["external", "object"],
+			"id": "306"
+		},
+		{
+			"iri": "http://example.org/ontology#measurementTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "184",
+			"label": {
+				"IRI-based": "measurementTime"
+			},
+			"domain": "132",
+			"attributes": ["external", "datatype"],
+			"id": "307"
+		},
+		{
+			"iri": "http://example.org/ontology#supplierInfo",
+			"baseIri": "http://example.org/ontology",
+			"range": "309",
+			"label": {
+				"IRI-based": "supplierInfo"
+			},
+			"domain": "19",
+			"attributes": ["external", "datatype"],
+			"id": "308"
+		},
+		{
+			"iri": "http://example.org/ontology#mitigationMeasures",
+			"baseIri": "http://example.org/ontology",
+			"range": "196",
+			"label": {
+				"IRI-based": "mitigationMeasures"
+			},
+			"domain": "311",
+			"attributes": ["external", "datatype"],
+			"id": "310"
+		},
+		{
+			"iri": "http://example.org/ontology#collectionMethod",
+			"baseIri": "http://example.org/ontology",
+			"range": "27",
+			"label": {
+				"IRI-based": "collectionMethod"
+			},
+			"domain": "51",
+			"attributes": ["external", "datatype"],
+			"id": "312"
+		},
+		{
+			"iri": "http://example.org/ontology#challengeDescription",
+			"baseIri": "http://example.org/ontology",
+			"range": "53",
+			"label": {
+				"IRI-based": "challengeDescription"
+			},
+			"domain": "164",
+			"attributes": ["external", "datatype"],
+			"id": "313"
+		},
+		{
+			"iri": "http://example.org/ontology#impactType",
+			"baseIri": "http://example.org/ontology",
+			"range": "26",
+			"label": {
+				"IRI-based": "impactType"
+			},
+			"domain": "311",
+			"attributes": ["external", "datatype"],
+			"id": "314"
+		},
+		{
+			"iri": "http://example.org/ontology#order",
+			"baseIri": "http://example.org/ontology",
+			"range": "220",
+			"label": {
+				"IRI-based": "order"
+			},
+			"domain": "137",
+			"attributes": ["external", "datatype"],
+			"id": "315"
+		},
+		{
+			"iri": "http://example.org/ontology#isMandatory",
+			"baseIri": "http://example.org/ontology",
+			"range": "219",
+			"label": {
+				"IRI-based": "isMandatory"
+			},
+			"domain": "136",
+			"attributes": ["external", "datatype"],
+			"id": "316"
+		},
+		{
+			"iri": "http://example.org/ontology#supplyID",
+			"baseIri": "http://example.org/ontology",
+			"range": "188",
+			"label": {
+				"IRI-based": "supplyID"
+			},
+			"domain": "319",
+			"attributes": ["external", "datatype"],
+			"id": "318"
+		},
+		{
+			"iri": "http://example.org/ontology#operationID",
+			"baseIri": "http://example.org/ontology",
+			"range": "239",
+			"label": {
+				"IRI-based": "operationID"
+			},
+			"domain": "123",
+			"attributes": ["external", "datatype"],
+			"id": "320"
+		},
+		{
+			"iri": "http://example.org/ontology#processID",
+			"baseIri": "http://example.org/ontology",
+			"range": "235",
+			"label": {
+				"IRI-based": "processID"
+			},
+			"domain": "81",
+			"attributes": ["external", "datatype"],
+			"id": "321"
+		},
+		{
+			"iri": "http://example.org/ontology#procedureName",
+			"baseIri": "http://example.org/ontology",
+			"range": "231",
+			"label": {
+				"IRI-based": "procedureName"
+			},
+			"domain": "124",
+			"attributes": ["external", "datatype"],
+			"id": "322"
+		},
+		{
+			"iri": "http://example.org/ontology#expectedOutcome",
+			"baseIri": "http://example.org/ontology",
+			"range": "204",
+			"label": {
+				"IRI-based": "expectedOutcome"
+			},
+			"domain": "102",
+			"attributes": ["external", "datatype"],
+			"id": "323"
+		},
+		{
+			"iri": "http://example.org/ontology#managementMethod",
+			"baseIri": "http://example.org/ontology",
+			"range": "221",
+			"label": {
+				"IRI-based": "managementMethod"
+			},
+			"domain": "19",
+			"attributes": ["external", "datatype"],
+			"id": "324"
+		},
+		{
+			"iri": "http://example.org/ontology#passportNumber",
+			"baseIri": "http://example.org/ontology",
+			"range": "217",
+			"label": {
+				"IRI-based": "passportNumber"
+			},
+			"domain": "40",
+			"attributes": ["external", "datatype"],
+			"id": "325"
+		},
+		{
+			"iri": "http://example.org/ontology#protocolID",
+			"baseIri": "http://example.org/ontology",
+			"range": "229",
+			"label": {
+				"IRI-based": "protocolID"
+			},
+			"domain": "103",
+			"attributes": ["external", "datatype"],
+			"id": "326"
+		},
+		{
+			"iri": "http://example.org/ontology#supports",
+			"baseIri": "http://example.org/ontology",
+			"range": "108",
+			"label": {
+				"IRI-based": "supports"
+			},
+			"domain": "111",
+			"attributes": ["external", "object"],
+			"id": "327"
+		},
+		{
+			"iri": "http://example.org/ontology#isIntegratedIn",
+			"baseIri": "http://example.org/ontology",
+			"range": "16",
+			"label": {
+				"IRI-based": "isIntegratedIn"
+			},
+			"domain": "109",
+			"attributes": ["external", "object"],
+			"id": "328"
+		},
+		{
+			"iri": "http://example.org/ontology#maintenanceSchedule",
+			"baseIri": "http://example.org/ontology",
+			"range": "248",
+			"label": {
+				"IRI-based": "maintenanceSchedule"
+			},
+			"domain": "115",
+			"attributes": ["external", "datatype"],
+			"id": "329"
+		},
+		{
+			"iri": "http://example.org/ontology#measurementValue",
+			"baseIri": "http://example.org/ontology",
+			"range": "291",
+			"label": {
+				"IRI-based": "measurementValue"
+			},
+			"domain": "64",
+			"attributes": ["external", "datatype"],
+			"id": "330"
+		},
+		{
+			"iri": "http://example.org/ontology#startTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "201",
+			"label": {
+				"IRI-based": "startTime"
+			},
+			"domain": "79",
+			"attributes": ["external", "datatype"],
+			"id": "331"
+		},
+		{
+			"iri": "http://example.org/ontology#seasonName",
+			"baseIri": "http://example.org/ontology",
+			"range": "261",
+			"label": {
+				"IRI-based": "seasonName"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "332"
+		},
+		{
+			"iri": "http://example.org/ontology#analyzes",
+			"baseIri": "http://example.org/ontology",
+			"range": "86",
+			"label": {
+				"IRI-based": "analyzes"
+			},
+			"domain": "88",
+			"attributes": ["external", "object"],
+			"id": "333"
+		},
+		{
+			"iri": "http://example.org/ontology#indicatorName",
+			"baseIri": "http://example.org/ontology",
+			"range": "268",
+			"label": {
+				"IRI-based": "indicatorName"
+			},
+			"domain": "119",
+			"attributes": ["external", "datatype"],
+			"id": "334"
+		},
+		{
+			"iri": "http://example.org/ontology#metricName",
+			"baseIri": "http://example.org/ontology",
+			"range": "171",
+			"label": {
+				"IRI-based": "metricName"
+			},
+			"domain": "336",
+			"attributes": ["external", "datatype"],
+			"id": "335"
+		},
+		{
+			"iri": "http://example.org/ontology#evaluationDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "236",
+			"label": {
+				"IRI-based": "evaluationDate"
+			},
+			"domain": "338",
+			"attributes": ["external", "datatype"],
+			"id": "337"
+		},
+		{
+			"iri": "http://example.org/ontology#isProvidedBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "40",
+			"label": {
+				"IRI-based": "isProvidedBy"
+			},
+			"domain": "14",
+			"attributes": ["external", "object"],
+			"id": "339"
+		},
+		{
+			"iri": "http://example.org/ontology#requirementID",
+			"baseIri": "http://example.org/ontology",
+			"range": "247",
+			"label": {
+				"IRI-based": "requirementID"
+			},
+			"domain": "7",
+			"attributes": ["external", "datatype"],
+			"id": "340"
+		},
+		{
+			"iri": "http://example.org/ontology#feedbackID",
+			"baseIri": "http://example.org/ontology",
+			"range": "28",
+			"label": {
+				"IRI-based": "feedbackID"
+			},
+			"domain": "14",
+			"attributes": ["external", "datatype"],
+			"id": "341"
+		},
+		{
+			"iri": "http://example.org/ontology#challengeID",
+			"baseIri": "http://example.org/ontology",
+			"range": "297",
+			"label": {
+				"IRI-based": "challengeID"
+			},
+			"domain": "164",
+			"attributes": ["external", "datatype"],
+			"id": "342"
+		},
+		{
+			"iri": "http://example.org/ontology#dataSource",
+			"baseIri": "http://example.org/ontology",
+			"range": "233",
+			"label": {
+				"IRI-based": "dataSource"
+			},
+			"domain": "344",
+			"attributes": ["external", "datatype"],
+			"id": "343"
+		},
+		{
+			"iri": "http://example.org/ontology#rating",
+			"baseIri": "http://example.org/ontology",
+			"range": "226",
+			"label": {
+				"IRI-based": "rating"
+			},
+			"domain": "14",
+			"attributes": ["external", "datatype"],
+			"id": "345"
+		},
+		{
+			"iri": "http://example.org/ontology#hazardousProtocolDescription",
+			"baseIri": "http://example.org/ontology",
+			"range": "267",
+			"label": {
+				"IRI-based": "hazardousProtocolDescription"
+			},
+			"domain": "104",
+			"attributes": ["external", "datatype"],
+			"id": "346"
+		},
+		{
+			"iri": "http://example.org/ontology#processName",
+			"baseIri": "http://example.org/ontology",
+			"range": "234",
+			"label": {
+				"IRI-based": "processName"
+			},
+			"domain": "16",
+			"attributes": ["external", "datatype"],
+			"id": "347"
+		},
+		{
+			"iri": "http://example.org/ontology#equipmentRequired",
+			"baseIri": "http://example.org/ontology",
+			"range": "38",
+			"label": {
+				"IRI-based": "equipmentRequired"
+			},
+			"domain": "349",
+			"attributes": ["external", "datatype"],
+			"id": "348"
+		},
+		{
+			"iri": "http://example.org/ontology#complianceRequired",
+			"baseIri": "http://example.org/ontology",
+			"range": "265",
+			"label": {
+				"IRI-based": "complianceRequired"
+			},
+			"domain": "351",
+			"attributes": ["external", "datatype"],
+			"id": "350"
+		},
+		{
+			"iri": "http://example.org/ontology#isMeasuredBy",
+			"baseIri": "http://example.org/ontology",
+			"range": "133",
+			"label": {
+				"IRI-based": "isMeasuredBy"
+			},
+			"domain": "17",
+			"attributes": ["external", "object"],
+			"id": "352"
+		},
+		{
+			"iri": "http://example.org/ontology#unitCost",
+			"baseIri": "http://example.org/ontology",
+			"range": "2",
+			"label": {
+				"IRI-based": "unitCost"
+			},
+			"domain": "319",
+			"attributes": ["external", "datatype"],
+			"id": "353"
+		},
+		{
+			"iri": "http://example.org/ontology#scaleID",
+			"baseIri": "http://example.org/ontology",
+			"range": "269",
+			"label": {
+				"IRI-based": "scaleID"
+			},
+			"domain": "133",
+			"attributes": ["external", "datatype"],
+			"id": "354"
+		},
+		{
+			"iri": "http://example.org/ontology#comments",
+			"baseIri": "http://example.org/ontology",
+			"range": "4",
+			"label": {
+				"IRI-based": "comments"
+			},
+			"domain": "14",
+			"attributes": ["external", "datatype"],
+			"id": "355"
+		},
+		{
+			"iri": "http://example.org/ontology#serviceName",
+			"baseIri": "http://example.org/ontology",
+			"range": "296",
+			"label": {
+				"IRI-based": "serviceName"
+			},
+			"domain": "357",
+			"attributes": ["external", "datatype"],
+			"id": "356"
+		},
+		{
+			"iri": "http://example.org/ontology#affectedServices",
+			"baseIri": "http://example.org/ontology",
+			"range": "32",
+			"label": {
+				"IRI-based": "affectedServices"
+			},
+			"domain": "181",
+			"attributes": ["external", "datatype"],
+			"id": "358"
+		},
+		{
+			"iri": "http://example.org/ontology#implementationDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "317",
+			"label": {
+				"IRI-based": "implementationDate"
+			},
+			"domain": "360",
+			"attributes": ["external", "datatype"],
+			"id": "359"
+		},
+		{
+			"iri": "http://example.org/ontology#quantity",
+			"baseIri": "http://example.org/ontology",
+			"range": "159",
+			"label": {
+				"IRI-based": "quantity"
+			},
+			"domain": "319",
+			"attributes": ["external", "datatype"],
+			"id": "361"
+		},
+		{
+			"iri": "http://example.org/ontology#isProvidedAt",
+			"baseIri": "http://example.org/ontology",
+			"range": "68",
+			"label": {
+				"IRI-based": "isProvidedAt"
+			},
+			"domain": "148",
+			"attributes": ["external", "object"],
+			"id": "362"
+		},
+		{
+			"iri": "http://example.org/ontology#isCollectedDuring",
+			"baseIri": "http://example.org/ontology",
+			"range": "81",
+			"label": {
+				"IRI-based": "isCollectedDuring"
+			},
+			"domain": "51",
+			"attributes": ["external", "object"],
+			"id": "363"
+		},
+		{
+			"iri": "http://example.org/ontology#isAppliedTo",
+			"baseIri": "http://example.org/ontology",
+			"range": "156",
+			"label": {
+				"IRI-based": "isAppliedTo"
+			},
+			"domain": "94",
+			"attributes": ["external", "object"],
+			"id": "364"
+		},
+		{
+			"iri": "http://example.org/ontology#totalDuration",
+			"baseIri": "http://example.org/ontology",
+			"range": "182",
+			"label": {
+				"IRI-based": "totalDuration"
+			},
+			"domain": "81",
+			"attributes": ["external", "datatype"],
+			"id": "365"
+		},
+		{
+			"iri": "http://example.org/ontology#participatesIn",
+			"baseIri": "http://example.org/ontology",
+			"range": "81",
+			"label": {
+				"IRI-based": "participatesIn"
+			},
+			"domain": "40",
+			"attributes": ["external", "object"],
+			"id": "366"
+		},
+		{
+			"iri": "http://example.org/ontology#isPartOf",
+			"baseIri": "http://example.org/ontology",
+			"range": "139",
+			"label": {
+				"IRI-based": "isPartOf"
+			},
+			"domain": "141",
+			"attributes": ["external", "object"],
+			"id": "367"
+		},
+		{
+			"iri": "http://example.org/ontology#name",
+			"baseIri": "http://example.org/ontology",
+			"range": "174",
+			"label": {
+				"IRI-based": "name"
+			},
+			"domain": "40",
+			"attributes": ["external", "datatype"],
+			"id": "368"
+		},
+		{
+			"iri": "http://example.org/ontology#managementProtocolDescription",
+			"baseIri": "http://example.org/ontology",
+			"range": "187",
+			"label": {
+				"IRI-based": "managementProtocolDescription"
+			},
+			"domain": "85",
+			"attributes": ["external", "datatype"],
+			"id": "369"
+		},
+		{
+			"iri": "http://example.org/ontology#isUsedToEvaluate",
+			"baseIri": "http://example.org/ontology",
+			"range": "140",
+			"label": {
+				"IRI-based": "isUsedToEvaluate"
+			},
+			"domain": "87",
+			"attributes": ["external", "object"],
+			"id": "370"
+		},
+		{
+			"iri": "http://example.org/ontology#currentValue",
+			"baseIri": "http://example.org/ontology",
+			"range": "244",
+			"label": {
+				"IRI-based": "currentValue"
+			},
+			"domain": "118",
+			"attributes": ["external", "datatype"],
+			"id": "373"
+		},
+		{
+			"iri": "http://example.org/ontology#isStoredIn",
+			"baseIri": "http://example.org/ontology",
+			"range": "240",
+			"label": {
+				"IRI-based": "isStoredIn"
+			},
+			"domain": "215",
+			"attributes": ["external", "object"],
+			"id": "376"
+		},
+		{
+			"iri": "http://example.org/ontology#averageTemperature",
+			"baseIri": "http://example.org/ontology",
+			"range": "284",
+			"label": {
+				"IRI-based": "averageTemperature"
+			},
+			"domain": "59",
+			"attributes": ["external", "datatype"],
+			"id": "377"
+		},
+		{
+			"iri": "http://example.org/ontology#endTime",
+			"baseIri": "http://example.org/ontology",
+			"range": "245",
+			"label": {
+				"IRI-based": "endTime"
+			},
+			"domain": "127",
+			"attributes": ["external", "datatype"],
+			"id": "378"
+		},
+		{
+			"iri": "http://example.org/ontology#contactInfo",
+			"baseIri": "http://example.org/ontology",
+			"range": "216",
+			"label": {
+				"IRI-based": "contactInfo"
+			},
+			"domain": "113",
+			"attributes": ["external", "datatype"],
+			"id": "379"
+		},
+		{
+			"iri": "http://example.org/ontology#supplyType",
+			"baseIri": "http://example.org/ontology",
+			"range": "263",
+			"label": {
+				"IRI-based": "supplyType"
+			},
+			"domain": "319",
+			"attributes": ["external", "datatype"],
+			"id": "380"
+		},
+		{
+			"iri": "http://example.org/ontology#bestPracticeDescription",
+			"baseIri": "http://example.org/ontology",
+			"range": "277",
+			"label": {
+				"IRI-based": "bestPracticeDescription"
+			},
+			"domain": "94",
+			"attributes": ["external", "datatype"],
+			"id": "382"
+		},
+		{
+			"iri": "http://example.org/ontology#measuredWeight",
+			"baseIri": "http://example.org/ontology",
+			"range": "0",
+			"label": {
+				"IRI-based": "measuredWeight"
+			},
+			"domain": "133",
+			"attributes": ["external", "datatype"],
+			"id": "383"
+		},
+		{
+			"iri": "http://example.org/ontology#protocolName",
+			"baseIri": "http://example.org/ontology",
+			"range": "278",
+			"label": {
+				"IRI-based": "protocolName"
+			},
+			"domain": "84",
+			"attributes": ["external", "datatype"],
+			"id": "384"
+		},
+		{
+			"iri": "http://example.org/ontology#weight",
+			"baseIri": "http://example.org/ontology",
+			"range": "279",
+			"label": {
+				"IRI-based": "weight"
+			},
+			"domain": "17",
+			"attributes": ["external", "datatype"],
+			"id": "385"
+		},
+		{
+			"iri": "http://example.org/ontology#improvementAreas",
+			"baseIri": "http://example.org/ontology",
+			"range": "161",
+			"label": {
+				"IRI-based": "improvementAreas"
+			},
+			"domain": "381",
+			"attributes": ["external", "datatype"],
+			"id": "386"
+		},
+		{
+			"iri": "http://example.org/ontology#operationType",
+			"baseIri": "http://example.org/ontology",
+			"range": "266",
+			"label": {
+				"IRI-based": "operationType"
+			},
+			"domain": "80",
+			"attributes": ["external", "datatype"],
+			"id": "387"
+		},
+		{
+			"iri": "http://example.org/ontology#provides",
+			"baseIri": "http://example.org/ontology",
+			"range": "51",
+			"label": {
+				"IRI-based": "provides"
+			},
+			"domain": "40",
+			"attributes": ["external", "object"],
+			"id": "388"
+		},
+		{
+			"iri": "http://example.org/ontology#recommendations",
+			"baseIri": "http://example.org/ontology",
+			"range": "31",
+			"label": {
+				"IRI-based": "recommendations"
+			},
+			"domain": "374",
+			"attributes": ["external", "datatype"],
+			"id": "389"
+		},
+		{
+			"iri": "http://example.org/ontology#severity",
+			"baseIri": "http://example.org/ontology",
+			"range": "290",
+			"label": {
+				"IRI-based": "severity"
+			},
+			"domain": "375",
+			"attributes": ["external", "datatype"],
+			"id": "390"
+		},
+		{
+			"iri": "http://example.org/ontology#expirationDate",
+			"baseIri": "http://example.org/ontology",
+			"range": "286",
+			"label": {
+				"IRI-based": "expirationDate"
+			},
+			"domain": "319",
+			"attributes": ["external", "datatype"],
+			"id": "391"
+		},
+		{
+			"iri": "http://example.org/ontology#affects",
+			"baseIri": "http://example.org/ontology",
+			"range": "148",
+			"label": {
+				"IRI-based": "affects"
+			},
+			"domain": "181",
+			"attributes": ["external", "object"],
+			"id": "395"
+		},
+		{
+			"iri": "http://example.org/ontology#generates",
+			"baseIri": "http://example.org/ontology",
+			"range": "96",
+			"label": {
+				"IRI-based": "generates"
+			},
+			"domain": "33",
+			"attributes": ["external", "object"],
+			"id": "396"
+		},
+		{
+			"iri": "http://example.org/ontology#operatingHours",
+			"baseIri": "http://example.org/ontology",
+			"range": "264",
+			"label": {
+				"IRI-based": "operatingHours"
+			},
+			"domain": "372",
+			"attributes": ["external", "datatype"],
+			"id": "397"
+		},
+		{
+			"iri": "http://example.org/ontology#weightLimit",
+			"baseIri": "http://example.org/ontology",
+			"range": "394",
+			"label": {
+				"IRI-based": "weightLimit"
+			},
+			"domain": "25",
+			"attributes": ["external", "datatype"],
+			"id": "399"
+		},
+		{
+			"iri": "http://example.org/ontology#cargoID",
+			"baseIri": "http://example.org/ontology",
+			"range": "287",
+			"label": {
+				"IRI-based": "cargoID"
+			},
+			"domain": "17",
+			"attributes": ["external", "datatype"],
+			"id": "400"
+		},
+		{
+			"iri": "http://example.org/ontology#destination",
+			"baseIri": "http://example.org/ontology",
+			"range": "392",
+			"label": {
+				"IRI-based": "destination"
+			},
+			"domain": "17",
+			"attributes": ["external", "datatype"],
+			"id": "401"
+		},
+		{
+			"iri": "http://example.org/ontology#duration",
+			"baseIri": "http://example.org/ontology",
+			"range": "393",
+			"label": {
+				"IRI-based": "duration"
+			},
+			"domain": "371",
+			"attributes": ["external", "datatype"],
+			"id": "402"
+		},
+		{
+			"iri": "http://example.org/ontology#impactID",
+			"baseIri": "http://example.org/ontology",
+			"range": "285",
+			"label": {
+				"IRI-based": "impactID"
+			},
+			"domain": "311",
+			"attributes": ["external", "datatype"],
+			"id": "403"
+		}
+	]
+}
