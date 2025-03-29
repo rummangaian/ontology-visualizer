@@ -1,220 +1,163 @@
 import { useEffect, useRef, useState } from "react";
 import {
-	OntologyViewer,
-	BaseRendererOptions,
+  OntologyViewer,
+  BaseRendererOptions,
 } from "@mobius/ontology-visualizer";
 import data from "../data/goodRelation.json";
 import "@mobius/ontology-visualizer/dist/index.css";
 import "./App.css";
 import FilterButton from "./components/FilterButton/FilterButton";
 import { convertOntologyFileData, getSessionId } from "./utils";
+import CodeEditor from "./components/FilterButton/CodeEditor/CodeEditor";
 
 export default function App() {
-	const graphRef = useRef(null);
-	const viewerRef = useRef(null);
-	const [degree, setDegree] = useState({ maxDegree: 0, currentDegree: 0 });
-	const [classDistance, setClassDistance] = useState(10);
-	const [labelLength, setLabelLength] = useState(30);
+  const graphRef = useRef(null);
+  const viewerRef = useRef(null);
+  const [degree, setDegree] = useState({ maxDegree: 0, currentDegree: 0 });
+  const [classDistance, setClassDistance] = useState(10);
+  const [labelLength, setLabelLength] = useState(30);
+  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [play, setPlay] = useState(true);
+  const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [openCodeEditor, setOpenCodeEditor] = useState(false);
 
-	const [selectedFilters, setSelectedFilters] = useState([]);
-	const [play, setPlay] = useState(true);
+  // Initialize Ontology Viewer
+  useEffect(() => {
+    if (!viewerRef.current && graphRef.current) {
+      const viewer = new OntologyViewer("graph", new BaseRendererOptions({ width: 1000, height: 1000 }));
+      viewer.initializeGraph();
 
-	const [file, setFile] = useState(null);
+      viewer.on("nodedegree.init", (event) => {
+        setDegree({
+          maxDegree: event.data.maxDegree,
+          currentDegree: event.data.currentDegree,
+        });
+      });
 
-	const handleFileChange = (event) => {
-		if (event.target.files && event.target.files[0]) {
-			setFile(event.target.files[0]);
-		}
-	};
+      viewer.import(data);
+      viewer.updateStyle();
+      viewerRef.current = viewer;
+    }
+  }, []);
 
-	// Maintain a single instance of options object
-	const [options] = useState(
-		new BaseRendererOptions({
-			width: 1000,
-			height: 1000,
-		})
-	);
+  // Handle File Upload
+  const handleFileChange = (event) => {
+    setFile(event.target.files?.[0] || null);
+  };
 
-	useEffect(() => {
-		if (!viewerRef.current && graphRef.current) {
-			const viewer = new OntologyViewer("graph", options);
+  // Import File to Ontology Viewer
+  const handleFileImport = async (e) => {
+    e.preventDefault();
+    if (!file) return;
 
-			viewer.initializeGraph();
+    setLoading(true);
+    try {
+      const sessionId = await getSessionId();
+      if (sessionId) {
+        const convertedData = await convertOntologyFileData(sessionId, file);
+        if (convertedData) {
+          viewerRef.current?.import(convertedData);
+          viewerRef.current?.updateStyle();
+        }
+      }
+    } catch (error) {
+      console.error("Error importing file:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-			// Register callback before import
-			viewer.on("nodedegree.init", (event) => {
-				const eventData = event.data;
-				setDegree({
-					maxDegree: eventData.maxDegree,
-					currentDegree: eventData.currentDegree,
-				});
-			});
+  // Handle Writing Code & Saving TTL
+  const handleEditorSaveCode = async (code) => {
+    const fileBlob = new Blob([code], { type: "text/turtle" });
 
-			viewer.import(data);
+    setLoading(true);
+    try {
+      const sessionId = await getSessionId();
+      if (sessionId) {
+        const convertedData = await convertOntologyFileData(sessionId, fileBlob);
+        if (convertedData) {
+          viewerRef.current?.import(convertedData);
+          viewerRef.current?.updateStyle();
+        }
+      }
+    } catch (error) {
+      console.error("Error saving TTL file:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-			viewerRef.current = viewer;
+  // Toggle Ontology Viewer Play/Pause
+  const handlePauseGraph = () => {
+    if (viewerRef.current) {
+      play ? viewerRef.current.pause() : viewerRef.current.resume();
+      setPlay(!play);
+    }
+  };
 
-			options.setClassDistance(10);
+  // Apply Filters
+  useEffect(() => {
+    if (selectedFilters.length > 0) {
+      selectedFilters.forEach((filter) => viewerRef.current?.filter(filter, true));
+      viewerRef.current?.resume();
+      setPlay(true);
+    }
+  }, [selectedFilters]);
 
-			viewer.updateStyle();
-		}
-	}, [options]);
+  return (
+    <div className="onto-container">
+      <div className="onto-title">Mobius Ontology Viewer</div>
 
-	const applyNodeDegree = (value) => {
-		const viewer = viewerRef.current;
-		setDegree((prev) => ({ ...prev, currentDegree: value }));
+      {/* Graph Viewer */}
+      <div id="graph" ref={graphRef}></div>
 
-		if (viewer) {
-			options.setDefaultDegree(value);
-			viewer.filter("DATATYPE", true);
-		}
-	};
+      {/* Controls */}
+      <div className="onto-setting-bar">
+        <FilterButton
+          selectedFilters={selectedFilters}
+          setSelectedFilters={setSelectedFilters}
+          degree={degree}
+          applyNodeDegree={(value) => {
+            setDegree((prev) => ({ ...prev, currentDegree: value }));
+            viewerRef.current?.filter("DATATYPE", true);
+          }}
+        />
+        <div>
+          <span>Class Distance</span>
+          <input type="range" min={10} max={1000} step={10} onChange={(e) => setClassDistance(parseInt(e.target.value))} value={classDistance} />
+        </div>
+        <div>
+          <span>Label Length</span>
+          <input type="range" min={10} max={100} step={10} onChange={(e) => setLabelLength(parseInt(e.target.value))} value={labelLength} />
+        </div>
+        <button className="onto-setting-right-part" onClick={handlePauseGraph}>{play ? "Pause" : "Play"}</button>
+      </div>
 
-	const applyFilter = (selectedFilters) => {
-		const viewer = viewerRef.current;
+      {/* File Upload */}
+      <div className="import-form-container">
+        <form onSubmit={handleFileImport} className="import-form">
+          <input type="file" accept=".ttl" onChange={handleFileChange} />
+          <button type="submit" disabled={!file || loading}>
+            {loading ? "Importing..." : "Import"}
+          </button>
+        </form>
+        <span className="open-editor-btn" onClick={() => setOpenCodeEditor(!openCodeEditor)}>
+          Open Text Editor
+        </span>
+      </div>
 
-		if (viewer) {
-			// Define all the possible filters that the viewer can handle
-			const allFilters = [
-				"DISJOINT",
-				"DATATYPE",
-				"EXTERNAL",
-				"OBJECT",
-				"SUBCLASS",
-				"SET_OPERATOR",
-				"COMPACT_NOTATION",
-				"EMPTY_LITERAL",
-				"NODE_DEGREE",
-				"STATISTICS",
-			];
-
-			// Iterate over all filters and dynamically set their values
-			allFilters.forEach((filter) => {
-				const isActive = selectedFilters.includes(filter); // Check if the filter is in selectedFilters
-				viewer.filter(filter, isActive); // Apply the filter state (true/false)
-			});
-		} else {
-			console.error("Viewer is not initialized.");
-		}
-	};
-
-	const handlePauseGraph = () => {
-		const viewer = viewerRef.current;
-		if (viewer) {
-			if (play) {
-				viewer.pause();
-				setPlay(false);
-			} else {
-				viewer.resume();
-				setPlay(true);
-			}
-		}
-	};
-
-	const applyClassDistance = (val) => {
-		setClassDistance(val); // Update state
-		const viewer = viewerRef.current;
-		if (viewer) {
-			options.setClassDistance(val);
-			viewer.updateStyle();
-		}
-	};
-
-	const applyLabelLength = (val) => {
-		setLabelLength(val);
-		const viewer = viewerRef.current;
-		if (viewer) {
-			options.setDynamicWidth(true);
-			options.setMaxLabelWidth(parseInt(val));
-			viewer.animateDynamicLabelWidth();
-		}
-	};
-
-	useEffect(() => {
-		if (selectedFilters) {
-			applyFilter(selectedFilters);
-
-			const viewer = viewerRef.current;
-			viewer.resume();
-			setPlay(true);
-		}
-	}, [selectedFilters]);
-
-	async function handleFileImport(e) {
-		e.preventDefault();
-		try {
-			const sessionId = await getSessionId();
-			if (sessionId) {
-				const data = await convertOntologyFileData(sessionId, file);
-				console.log(data);
-				if (data) {
-					const viewer = viewerRef.current;
-					if (viewer) {
-						viewer.import(data);
-						viewer.updateStyle();
-					}
-				}
-			}
-		} catch (error) {}
-	}
-
-	return (
-		<div className="onto-container">
-			<div className="onto-title">Mobius Ontology Viewer</div>
-			<div className="btns"></div>
-			<div id="graph" ref={graphRef}></div>
-			<div className="onto-setting-bar">
-				<FilterButton
-					selectedFilters={selectedFilters}
-					setSelectedFilters={setSelectedFilters}
-					degree={degree}
-					applyNodeDegree={applyNodeDegree}
-				/>
-				<div>
-					<span>Class Distance</span>
-					<input
-						type="range"
-						min={10}
-						max={1000}
-						step={10}
-						onChange={(e) =>
-							applyClassDistance(parseInt(e.target.value))
-						}
-						value={classDistance}
-					/>
-				</div>
-				<div>
-					<span>Labels</span>
-					<input
-						type="range"
-						min={10}
-						max={100}
-						step={10}
-						onChange={(e) =>
-							applyLabelLength(parseInt(e.target.value))
-						}
-						value={labelLength}
-					/>
-				</div>
-
-				<button
-					className="onto-setting-right-part"
-					onClick={handlePauseGraph}
-				>
-					{play ? <>Pause</> : <>Play</>}
-				</button>
-			</div>
-			<div className="import-form-container">
-				<form onSubmit={handleFileImport} className="import-form">
-					<input
-						type="file"
-						name="ontology"
-						id="ontology-file-input"
-						onChange={handleFileChange}
-					/>
-					<button disabled={!file}>import</button>
-				</form>
-			</div>
-		</div>
-	);
+      {/* Code Editor */}
+      {openCodeEditor && <CodeEditor handleEditorSaveCode={handleEditorSaveCode} />}
+	  {loading && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <p>Loading, please wait...</p>
+            <div className="spinner"></div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
